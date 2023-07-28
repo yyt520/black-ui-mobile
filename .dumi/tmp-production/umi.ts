@@ -11,7 +11,7 @@ import { createHistory } from './core/history';
 import { ApplyPluginsType } from 'umi';
 
 
-const publicPath = "/";
+const publicPath = "/black-ui-mobile/";
 const runtimePublicPath = false;
 
 async function render() {
@@ -34,7 +34,7 @@ async function render() {
     initialValue: {},
   });
 
-  const basename = contextOpts.basename || '/';
+  const basename = contextOpts.basename || '/black-ui-mobile/';
   const historyType = contextOpts.historyType || 'browser';
 
   const history = createHistory({
