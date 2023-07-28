@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "jsx": "react",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "rootDirs": ["src"],
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "declaration": false,
+    "outDir": "./dist",
+    "lib": ["ES2016", "DOM"],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "importHelpers": true,
+    "paths": {
+      "uab-ui-mobile-utils": ["src/utils/index.ts"],
+      "uab-ui-mobile-demos": ["src/demos/index.ts"],
+      "uab-ui-mobile": ["src/index.ts"],
+      "uab-ui-mobile/es/*": ["src/*"],
+      "@@/*": [".dumi/tmp/*"],
+      "testing": ["./tests/testing"]
+    }
+  },
+  "include": ["src", ".dumi/**/*", ".dumirc.ts"],
+  "exclude": ["node_modules", "dist", "website"]
+}

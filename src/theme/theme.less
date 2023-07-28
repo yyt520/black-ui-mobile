@@ -1,0 +1,46 @@
+@import './theme-default.less';
+@import './theme-dark.less';
+
+body {
+  color: var(--uabm-color-text);
+  font-size: var(--uabm-font-size-main);
+  font-family: var(--uabm-font-family);
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+a {
+  color: var(--uabm-color-primary);
+  transform: opacity ease-in-out 0.2s;
+  &:active {
+    opacity: 0.8;
+  }
+}
+
+// 纯文本标记
+.uabm-plain-anchor {
+  color: unset;
+  transition: none;
+  &:active {
+    opacity: unset;
+  }
+}
+
+// 用于 Mask 背景蒙层显示时防止滚动
+body.uabm-overflow-hidden {
+  overflow: hidden !important;
+}
+
+div.uabm-px-tester {
+  --size: 1;
+  height: calc(var(--size) / 2 * 2px);
+  width: 0;
+  position: fixed;
+  right: -100vw;
+  bottom: -100vh;
+  user-select: none;
+  pointer-events: none;
+}
