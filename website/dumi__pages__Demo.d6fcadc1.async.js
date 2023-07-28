@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkuab_ui_mobile=self.webpackChunkuab_ui_mobile||[]).push([[448],{12535:function(f,n,e){e.r(n),e.d(n,{default:function(){return m}});var a=e(52235),o=e(67294),t=function(){var r=(0,a.UO)(),d=r.id,s=(0,a.WF)(),i=s.demos,c=i[d]||{},u=c.component;return u&&(0,o.createElement)(u)},m=t}}]);
