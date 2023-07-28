@@ -12,23 +12,6 @@
   </h4>
 </div>
 
-## 快速上手
-
-### 安装
-
-```bash
-$ npm install --save uab-ui-mobile
-# or
-$ yarn add uab-ui-mobile
-# or
-$ pnpm add uab-ui-mobile
-```
-
-### 引入
-
-```js
-import { Button } from 'uab-ui-mobile'
-```
 
 ## 组件
 
@@ -135,10 +118,3 @@ import { Button } from 'uab-ui-mobile'
 - [ ] TreeSelect 级联选择器
 - [ ] VirtualInput 虚拟输入框
 
-## 代码贡献者
-
-感谢所有为 uab-ui-mobile 做出贡献的人!
-
-<a href="https://github.com/yyt520/black-ui-mobile/graphs/contributors">
-  <img src="https://opencollective.com/uab-ui-mobile/contributors.svg?width=960&button=false" alt="contributors" />
-</a>
