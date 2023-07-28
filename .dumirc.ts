@@ -4,7 +4,7 @@ import { sidebar } from './config/sidebar'
 
 exports.default = defineConfig({
   themeConfig: {
-    name: 'Uab Ui Mobile',
+    name: 'Black Ui Mobile',
     logo: 'https://avatars.githubusercontent.com/u/73016681?s=200&v=4',
     nav: nav,
     sidebar: sidebar,
@@ -35,6 +35,6 @@ exports.default = defineConfig({
     },
   ],
   outputPath: 'website',
-  base: '/black-ui-mobile/',
-  publicPath: '/black-ui-mobile/',
+  // base: '/black-ui-mobile/',
+  // publicPath: '/black-ui-mobile/',
 })

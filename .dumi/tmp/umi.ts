@@ -34,7 +34,7 @@ async function render() {
     initialValue: {},
   });
 
-  const basename = contextOpts.basename || '/black-ui-mobile/';
+  const basename = contextOpts.basename || '/';
   const historyType = contextOpts.historyType || 'browser';
 
   const history = createHistory({

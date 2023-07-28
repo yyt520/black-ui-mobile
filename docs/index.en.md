@@ -1,14 +1,14 @@
 ---
-title: Uab Ui Mobile
+title: Black UI Mobile
 hero:
-  title: Uab Ui Mobile
+  title: Black UI Mobile
   description: |
     A basic web UI library based on react for building mobile applications.
   actions:
     - text: Quick Start
       link: /en/guide/quick-start
     - text: GitHub
-      link: https://github.com/uabjs/uab-ui-mobile
+      link: https://github.com/yyt520/black-ui-mobile
 features:
   - title: High Performance
     emoji: 🚀

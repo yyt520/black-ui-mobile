@@ -1,14 +1,14 @@
 ---
-title: Uab Ui Mobile
+title: Black UI Mobile
 hero:
-  title: Uab Ui Mobile
+  title: Black UI Mobile
   description: |
     基于 react 的用于构建移动端应用程序的基本 web UI 库。
   actions:
     - text: 立即上手
       link: /guide/quick-start
     - text: GitHub
-      link: https://github.com/uabjs/uab-ui-mobile
+      link: https://github.com/yyt520/black-ui-mobile
 features:
   - title: 高性能
     emoji: 🚀
