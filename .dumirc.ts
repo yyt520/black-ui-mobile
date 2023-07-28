@@ -35,4 +35,6 @@ exports.default = defineConfig({
     },
   ],
   outputPath: 'website',
+  base: '/black-ui-mobile/',
+  publicPath: '/black-ui-mobile/',
 })
